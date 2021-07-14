@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $('p').on({
+          mouseenter: function() {
+            $(this).css('background-color', 'red');
+          },
+          mouseleave: function() {
+            $(this).css('background-color', 'lightblue');
+          },
+          click: function() {
+            $(this).css('background-color', 'yellow');
+          }
+        });
+      });
+    </script>
+    <p>
+      Hi, Every one I am Ravi tosh rathor I want to go deep dive in development
+    </p>
+  </body>
+</html>
